@@ -58,7 +58,7 @@
   width: 12px;
 }
 
-#hamburger {
+.hamburger {
   position: fixed;
   top: 0;
   right: 0px;
@@ -106,7 +106,7 @@
   .header__call {
     height: 75px;
   }
-  #hamburger {
+  .hamburger {
     height: 70px;
   }
 }
@@ -223,7 +223,7 @@
   .header__call {
     display: none;
   }
-  #hamburger {
+  .hamburger {
     display: none;
   }
 }
@@ -1845,6 +1845,10 @@ footer .copyright {
 
 .active {
   display: block;
+}
+
+.hum-off {
+  display: none;
 }
 
 a {

@@ -1,9 +1,9 @@
 $(function(){
 
-  $('#hamburger').click(function(){
+  $('.hamburger').click(function(){
     $('#sp-menu').fadeIn();
     $('.fa-times').addClass('out');
-    $('#hamburger').addClass('hum-off');
+    $('.hamburger').addClass('hum-off');
 
     });
 
@@ -11,7 +11,7 @@ $(function(){
    
     $(this).removeClass('out');
     $('#sp-menu').fadeOut();
-  $('#hamburger').removeClass('hum-off');
+  $('.hamburger').removeClass('hum-off');
     });
   
 
