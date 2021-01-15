@@ -225,19 +225,6 @@
   #hamburger {
     display: none;
   }
-  .fixed {
-    top: 0px;
-  }
-  .transform {
-    width: 100%;
-    border-radius: 0px;
-  }
-  .radius {
-    border-radius: 0px;
-  }
-  .active {
-    display: block;
-  }
 }
 
 .hero {
@@ -1840,6 +1827,23 @@ footer .copyright {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.fixed {
+  top: 0px;
+}
+
+.transform {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.radius {
+  border-radius: 0px;
+}
+
+.active {
+  display: block;
 }
 
 a {
