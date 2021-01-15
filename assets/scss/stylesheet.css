@@ -158,6 +158,7 @@
   .header__link {
     display: block;
     padding: 20px 30px;
+    font-size: 0.9em;
   }
   .header__link.header__link--hover span {
     position: relative;
