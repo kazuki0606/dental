@@ -3,7 +3,7 @@ $(function(){
   $('#hamburger').click(function(){
     $('#sp-menu').fadeIn();
     $('.fa-times').addClass('out');
-    $('#hamburger').fadeOut();
+    $('#hamburger').addClass('hum-off');
 
     });
 
@@ -11,7 +11,7 @@ $(function(){
    
     $(this).removeClass('out');
     $('#sp-menu').fadeOut();
-    $('#hamburger').fadeIn();
+  $('#hamburger').removeClass('hum-off');
     });
   
 
