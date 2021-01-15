@@ -1,0 +1,350 @@
+footer{
+  color: white;
+
+  a{
+    color: white;
+  }
+
+  .footer__bg {
+    background-image: url(../img/footer_back-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+
+  }
+  
+  .footer__container {
+    max-width: 100%;
+    margin: 0 auto;
+ 
+  }
+
+  .footer__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    
+   
+    
+  }
+
+ 
+  .footer__item:first-child{
+  display: none;
+    
+  }
+  .footer__item{
+  width: 100%;
+    
+  }
+
+  .footer__list{
+    padding: 0 20px;
+ li{
+  margin-bottom: 20px;
+  font-size: .9em;
+ }
+  }
+
+
+  .clinic__table{
+    margin: 0 auto;
+    color: white;
+    max-width: 100%;
+    padding: 0 10px;
+  
+    table{
+      width: 100%;
+      max-width: 100%;
+ 
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+  
+      thead{
+        border-bottom: 1px solid white;
+      }
+  
+      tr {   
+            th{
+              border: none;
+      padding: 0px;
+      text-align: center;
+      &:first-child {
+        border-right: 1px solid white;
+    }
+            }
+            td{
+             
+              text-align: center;
+              padding: 0px 12px 0 10px;
+            }
+    }
+  
+    tbody{
+      tr{
+      th {
+        border: none;
+        padding: 8px 0;
+        text-align: center;
+        font-weight: normal;
+        font-size: 11px;
+  
+    }
+  }
+  }
+    }
+  
+  }
+  
+
+.clinic__caption {
+  font-size: .7em;
+}
+
+.copyright{
+font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}
+
+
+}
+
+@media screen and (min-width:600px) {
+  footer{
+    color: white;
+  
+    a{
+      color: white;
+    }
+  
+    .footer__bg {
+      background-image: url(../img/footer_back-img.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      padding: 60px 0;
+  
+    }
+    
+    .footer__container {
+      max-width: 70%;
+      margin: 0 auto;
+   
+    }
+  
+    .footer__flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      
+     
+      
+    }
+  
+   
+    .footer__item:first-child{
+    display: none;
+      
+    }
+    .footer__item{
+    width: 100%;
+      
+    }
+  
+    .footer__list{
+      padding: 0 20px;
+   li{
+    margin-bottom: 20px;
+    font-size: .9em;
+   }
+    }
+  
+  
+    .clinic__table{
+      margin: 0 auto;
+      color: white;
+      max-width: 100%;
+      padding: 0 10px;
+    
+      table{
+        width: 100%;
+        max-width: 100%;
+   
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    
+        thead{
+          border-bottom: 1px solid white;
+        }
+    
+        tr {   
+              th{
+                border: none;
+        padding: 0px;
+        text-align: center;
+        &:first-child {
+          border-right: 1px solid white;
+      }
+              }
+              td{
+               
+                text-align: center;
+                padding: 0px 12px 0 10px;
+              }
+      }
+    
+      tbody{
+        tr{
+        th {
+          border: none;
+          padding: 8px 0;
+          text-align: center;
+          font-weight: normal;
+          font-size: 11px;
+    
+      }
+    }
+    }
+      }
+    
+    }
+    
+  
+  .clinic__caption {
+    font-size: .7em;
+  }
+  
+  .copyright{
+  font-size: 12px;
+      text-align: center;
+      line-height: 20px;
+      color: #fff;
+      letter-spacing: 1px;
+      padding-top: 40px;
+  }
+  
+  
+  }
+
+}
+
+@media screen and (min-width:1025px) {
+footer{
+  color: white;
+
+  a{
+    color: white;
+  }
+
+  .footer__bg {
+    background-image: url(../img/footer_back-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+
+  }
+  
+  .footer__container {
+    max-width: 1140px;
+    margin: 0 auto;
+ 
+  }
+
+  .footer__flex{
+    display: flex;
+     justify-content: center; 
+    
+    flex-wrap: inherit;
+  }
+
+
+  .footer__item:first-child{
+    display: block;
+      
+    }
+  .footer__item{
+ width: 100%;
+    
+  }
+
+  .footer__list{
+    padding: 0 20px;
+ li{
+  margin-bottom: 20px;
+  font-size: .9em;
+ }
+  }
+
+
+ .clinic__table{
+  color: white;
+  margin: 0 auto;
+
+  max-width: 80%;
+  table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+
+    thead{
+      border-bottom: 1px solid white;
+    }
+
+    tr {   
+          th{
+            border: none;
+    padding: 10px 15px;
+    text-align: center;
+    &:first-child {
+      border-right: 1px solid white;
+  }
+          }
+          td{
+            width: 20px;
+            text-align: center;
+            padding: 0px 12px 0 10px;
+          }
+  }
+
+  tbody{
+    tr{
+    th {
+      border: none;
+      padding: 8px 0;
+      text-align: center;
+      font-weight: normal;
+      font-size: 0.8em;
+
+  }
+}
+}
+  }
+
+}
+  
+
+.clinic__caption {
+  font-size: .8em;
+}
+
+.copyright{
+font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}
+
+
+}
+
+
+}
+

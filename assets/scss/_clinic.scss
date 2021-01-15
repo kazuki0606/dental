@@ -1,0 +1,412 @@
+.clinic{
+  position: relative;
+  font-size: .9em;
+}
+
+.clinic__inner{
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.clinic__bg{
+  background-color: #edf2fa;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  z-index: -2;
+}
+
+
+
+
+.clinic__container{
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clinic__item{
+width: 100%;
+padding: 0 20px;
+}
+
+.clinic__item:last-child{
+padding:20px 10px;
+}
+
+.clinic .card{
+  max-width: 100%;
+  color: #212529;
+  margin: 0 auto;
+}
+.card__bg{
+  background-color: white;
+  box-shadow: 0 3px 30px rgba(125, 139, 200, 0.3);
+  border-radius: 10px;
+  // margin-top: 60px;
+}
+.card__body{
+  padding: 40px 20px;
+  
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  p{
+    font-size: .9em;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+.clinic__name{
+  margin-bottom: 20px;
+}
+
+.clinic__adress--bold{
+  
+  font-weight: bold;
+}
+.clinic__tel{
+  margin-bottom: 20px;
+
+}
+
+.clinic__btn{
+text-align: center;
+.btn{
+  background: linear-gradient(to right,#8ad6e7 0,#7d8bc8 100%);
+  color: white;
+border: none;
+position: relative;
+&:hover{
+color: #7d8bc8;
+}
+
+
+&::before{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+border-radius: 30px;
+
+background: white;
+opacity: 0;
+
+transform: scale(.5);
+
+transition: all .3s cubic-bezier(.165,.84,.44,1);
+
+transition-timing-function: cubic-bezier(.165,.84,.44,1);
+
+}
+
+&:hover::before {
+opacity: 1;
+
+transform: scale(1);
+width: calc(100% + 5px);
+height: calc(100% + 5px);
+left: -3px;
+top: -3px;
+box-shadow: 0 5px 20px rgba(125,139,200,.5);
+}
+
+
+}
+
+}
+
+
+.clinic__table{
+  margin: 0 auto;
+  color: #7d8bc8;
+  max-width: 100%;
+  
+
+  table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    thead{
+      border-bottom: 1px solid #7d8bc8;
+    }
+
+    tr {   
+          th{
+            border: none;
+    padding: 0px;
+    text-align: center;
+    &:first-child {
+      border-right: 1px solid #7d8bc8;
+  }
+          }
+          td{
+           
+            text-align: center;
+            padding: 0px 12px 0 10px;
+          }
+  }
+
+  tbody{
+    tr{
+    th {
+      border: none;
+      padding: 5px 0;
+      text-align: center;
+      font-weight: normal;
+      font-size: 11px;
+
+  }
+}
+}
+  }
+
+}
+
+
+
+.clinic__caption {
+  font-size: .6em;
+}
+
+
+
+@media screen and (min-width:600px) {
+  .clinic .card{
+    max-width: 50%;
+    color: #212529;
+    margin: 0 auto;
+  }
+
+  .clinic__container{
+    max-width: 100%;
+    margin: 0 auto;
+  
+  
+  }
+
+.clinic__item {
+  width: 100%;
+
+}
+
+.clinic{
+
+
+  .clinic__table{
+    margin: 0 auto;
+    color: #7d8bc8;
+    max-width: 50%;
+    table{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+  
+      thead{
+        border-bottom: 1px solid #7d8bc8;
+      }
+  
+      tr {   
+            th{
+              border: none;
+      padding: 10px 15px;
+      text-align: center;
+      &:first-child {
+        border-right: 1px solid #7d8bc8;
+    }
+            }
+            td{
+              width: 20px;
+              text-align: center;
+              padding: 0px 12px 0 10px;
+            }
+    }
+  
+    tbody{
+      tr{
+      th {
+        border: none;
+        padding: 8px 0;
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.8em;
+  
+    }
+  }
+  }
+    }
+  
+  }
+  }
+
+
+}
+
+@media screen and (min-width:1025px) {
+
+.clinic{
+  position: relative;
+}
+
+.clinic__inner{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.clinic__bg{
+  background-color: #edf2fa;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60%;
+  z-index: -2;
+}
+
+.clinic__container{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clinic__item{
+flex: 1;
+}
+.clinic .card{
+  max-width: 100%;
+  color: #212529;
+  margin: 0 auto;
+}
+
+.clinic__name{
+  margin-bottom: 20px;
+}
+
+.clinic__adress--bold{
+  
+  font-weight: bold;
+}
+.clinic__tel{
+  margin-bottom: 20px;
+
+}
+
+
+.clinic__btn{
+text-align: center;
+.btn{
+  background: linear-gradient(to right,#8ad6e7 0,#7d8bc8 100%);
+  color: white;
+border: none;
+position: relative;
+&:hover{
+color: #7d8bc8;
+}
+
+
+&::before{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+border-radius: 30px;
+
+background: white;
+opacity: 0;
+
+transform: scale(.5);
+
+transition: all .3s cubic-bezier(.165,.84,.44,1);
+
+transition-timing-function: cubic-bezier(.165,.84,.44,1);
+
+}
+
+&:hover::before {
+opacity: 1;
+
+transform: scale(1);
+width: calc(100% + 5px);
+height: calc(100% + 5px);
+left: -3px;
+top: -3px;
+box-shadow: 0 5px 20px rgba(125,139,200,.5);
+}
+
+
+}
+
+}
+
+.clinic{
+
+
+.clinic__table{
+  margin: 0 auto;
+  color: #7d8bc8;
+  max-width: 80%;
+  table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+
+    thead{
+      border-bottom: 1px solid #7d8bc8;
+    }
+
+    tr {   
+          th{
+            border: none;
+    padding: 10px 15px;
+    text-align: center;
+    &:first-child {
+      border-right: 1px solid #7d8bc8;
+  }
+          }
+          td{
+            width: 20px;
+            text-align: center;
+            padding: 0px 12px 0 10px;
+          }
+  }
+
+  tbody{
+    tr{
+    th {
+      border: none;
+      padding: 8px 0;
+      text-align: center;
+      font-weight: normal;
+      font-size: 0.8em;
+
+  }
+}
+}
+  }
+
+}
+}
+
+
+.clinic__caption {
+  font-size: .8em;
+}
+
+
+}
+

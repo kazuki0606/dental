@@ -1,0 +1,153 @@
+
+ .treatment{
+  position: relative;
+    text-align: center;
+    color: #212529;
+   }
+   
+   .treatment__inner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  
+  }
+
+  .treatment__bg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #8ad6e7;
+    
+    background: linear-gradient(to right,#8ad6e7 0,#7d8bc8 100%);
+    z-index: -2;
+  }
+
+  .treatment__container{
+    max-width: 1140px;
+    margin: 0 auto;
+    h2{
+      font-size: 1.5em;
+   
+  
+    }
+    .treatment__sub{
+      display: block;
+      font-size: .9em;
+      padding-top: 5px;
+      margin-bottom: 60px;
+  
+    }
+
+  }
+  
+
+  .treatment__content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    }
+    .treatment__item{
+  width: 100%;
+  padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+      
+       
+    
+    }
+    
+    .treatment__body{
+    background: #fff;
+    border-radius: 10px;
+    z-index: 2;
+    font-weight: 500;
+    padding: 30px 0;
+    margin: 0 10px;
+    
+    box-shadow: 0 3px 30px rgba(125,139,200,.3);
+    transition: all .4s cubic-bezier(.175,.885,.32,1.275);
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+    &:hover{
+      transform: translateY(-5px) scale(1.01);
+    }
+    
+    
+    .treatment__name{
+      display: block;
+      margin-bottom: 40px;
+    }
+    img{
+      max-width: 50px;
+      height: 50px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .treatment__btn{
+    font-size: .8rem;
+    color: #7d8bc8;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    &::before{   
+      content: "\f105";
+      font: normal normal normal 14px/1 FontAwesome;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1em;
+      
+    }
+    
+    }
+    }
+
+    @media screen and (min-width:600px) {
+      .treatment__item{
+        flex: 1;
+
+      }
+      
+      }
+
+
+@media screen and (min-width:1025px) {
+ .treatment{
+position: relative;
+  text-align: center;
+  color: #212529;
+ }
+
+  .treatment__inner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    
+   
+  }
+
+  
+  
+ 
+
+
+.treatment__item{
+  flex: 1;
+
+  
+   
+
+}
+
+
+
+ }
+
+

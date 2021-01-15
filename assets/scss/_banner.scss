@@ -1,0 +1,47 @@
+.banner{
+  padding: 0 20px;
+  padding-bottom: 20px;
+
+}
+.banner__item{
+
+      text-align: center;
+    
+    }
+
+    @media screen and (min-width:600px) {
+
+      .banner__container{
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
+        
+      }
+      .banner__item{
+    width: 40%;
+        text-align: center;
+    
+      }
+    }
+
+@media screen and (min-width:1025px) {
+
+.banner{
+  padding: 0px;
+  padding-bottom: 60px;
+}
+  .banner__container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    
+  }
+  .banner__item{
+width: 40%;
+    text-align: center;
+
+  }
+}
+
