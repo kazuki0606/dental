@@ -23,8 +23,9 @@
 }
 
 .header__logo{
-  max-width: 60%;
-  margin: 0 auto;
+  // max-width: 60%;
+  // margin: 0 auto;
+  flex: 0 1 auto;
 
 
 }
@@ -70,7 +71,7 @@ display: none;
   
  
     width: 50px;
-    height: 42px;
+    height: 52px;
 
     display: flex;
   
@@ -156,8 +157,9 @@ border-radius: 10px 10px 15px 10px;
 }
 
 .header__inner{
-  padding: 20px 30px;
+  padding: 20px 1vw;
   display: flex;
+  justify-content: space-between;
   width: 100%;
   
   
@@ -165,8 +167,9 @@ border-radius: 10px 10px 15px 10px;
   }
   
   .header__logo{
+    flex: 1;
    img{
-    height: 50px;
+    // height: 50px;
    }
   
   
@@ -180,12 +183,25 @@ border-radius: 10px 10px 15px 10px;
   margin-left:5%;
   
   }
+  .header__item{
+
+    margin-left: 20px;
+    
+&:first-of-type {
+
+  margin-left: 0px;
+}
+
+  }
+  
 
 
   
   .header__link{
   display: block;
-  padding: 20px 30px;
+  margin-left: 20px;
+
+
 font-size: 0.9em;
   &.header__link--hover{
 
